@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat";
+    background-color: #dddddd;
+    line-height: 1.5;
+}
+.container{
+    background: url(/img/ID\ Card-rafiki.svg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: -30%;
+    background-position-y: -60%;
+    max-width: 1240px;
+    height: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background: url(/img/1597722989485_logo_2-1-removebg-preview.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 20px;
+    flex: 1;
+    padding: 20px;
+}
+.conten{
+    /* background: url(/flaticon/user.svg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+    background-position-x: 785px; */
+    /* background-color: rgb(187, 255, 118); */
+    flex: 3;
+}
+.bungkus{
+    background-color: rgb(238, 238, 238, 0.7);
+    height: auto;
+    margin: 215px 40px 20px 40px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    width: auto;
+    margin: auto auto auto auto;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #92E3A9;
+}
+input{
+    font-family: "Montserrat";
+    display: block;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    width: 50%;
+    padding: 5px;
+    border-radius: 8px;
+}
+.btn{
+    font-family: "Montserrat";
+    display: block;
+    margin: 20px auto 20px auto;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    width: 20%;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(0, 109, 255, 0.8);
+    transition: 0.50s;
+    cursor: pointer;
+  }
+  .btn:hover{
+      background: rgb(0, 96, 221);
+      color: white;
+  }
+.menu1{
+    background: url(/flaticon/home-green.svg);
+    margin-top: 200px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    /* margin: 40px auto; */
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu1:hover{
+    background: url(/flaticon/home.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu2{
+    background: url(/flaticon/settings-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+    
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu2:hover{
+    background: url(/flaticon/settings.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu3{
+    background: url(/flaticon/check-mark-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu3:hover{
+    background: url(/flaticon/check-mark.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu4{
+    background: url(/flaticon/consent-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu4:hover{
+    background: url(/flaticon/consent.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu5{
+    background: url(/flaticon/print.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+    
+    
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+
+
+
+/* =================================responsive================================= */
+@media screen and (max-width: 700px) {
+    body, html{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        background-color: white;
+        background-image: none;
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        display: table-row;
+    }
+    .menu1{
+        margin-bottom: 40px;
+        margin-left: 60px;
+    }
+    .header {
+        display: inline-block;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 500px;
+        /* width: 100%; */
+        height: auto;
+        position: relative;
+    }
+    .bungkus{
+        margin-top: 100px;
+        height: auto;
+    }
+    input.name{
+        display: block;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 80%;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    form{
+        height: auto;
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+    }
+  }

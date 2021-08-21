@@ -1,0 +1,444 @@
+
+.nav-item.active{
+	background-color: #8BBF99;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nav-item a{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 22px;
+	/* identical to box height */
+	color: #8BBF99;
+}
+.nav-item.active a{
+	color: #FFFFFF;
+}
+.menu-text{
+	vertical-align: middle;
+}
+.menu-ul .nav-item:hover{
+	background-color: #8BBF99;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #FFFFFF;
+}
+.nav-link:hover {
+	color: #FFFFFF !important;
+}
+/*Stylenya icon*/
+.icon{
+	height: 22px;
+	display: inline-block;
+	width: 20px;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	background-size: cover;
+	background-size: 20px 20px;
+}
+.dash-menu.active .icon-home{
+	background-image: url('/assets/icons/home-icon-active.svg');
+}
+.dash-menu .icon-home{
+  background-image: url("/assets/icons/home-icon.svg");
+}
+.nav-item.dash-menu:hover .icon-home,
+.nav-item.dash-menu:focus .icon-home{
+  background-image: url('/assets/icons/home-icon-active.svg');
+}
+
+.data-menu.active .icon-data{
+	background-image: url('/assets/icons/datapendaftar-icon-active.svg');
+}
+.data-menu .icon-data{
+  background-image: url("/assets/icons/datapendaftar-icon.svg");
+}
+.nav-item.data-menu:hover .icon-data,
+.nav-item.data-menu:focus .icon-data{
+  background-image: url('/assets/icons/datapendaftar-icon-active.svg');
+}
+
+.verif-menu.active .icon-verifikasi{
+	background-image: url('/assets/icons/verifikasi-icon-active.svg');
+}
+.verif-menu .icon-verifikasi{
+  background-image: url("/assets/icons/verifikasi-icon.svg");
+}
+.nav-item.verif-menu:hover .icon-verifikasi,
+.nav-item.verif-menu:focus .icon-verifikasi{
+  background-image: url('/assets/icons/verifikasi-icon-active.svg');
+}
+.right-icon {
+	height: 52px;
+	display: inline-block;
+	width: 42px;
+	background-repeat: no-repeat;
+	background-size: 40px 52px;
+	vertical-align: middle;
+}
+
+.right-icon.notif-icon{
+	background-image: url('/assets/icons/notif-icon.svg');
+}
+.right-icon.notif-icon:focus{
+	cursor: pointer;
+}
+.right-icon.profile-icon{
+	background-image: url('/assets/icons/profile-icon.svg');
+}
+.right-icon.profile-icon:hover{
+	cursor: pointer;
+	background-image: url('/assets/icons/profile-icon.svg');
+}
+.notifcard{
+	z-index: 100;
+	position: fixed;
+	right: 107px;
+	margin-top: -5px;
+	background-color: #BDDEB1 !important;
+	border-radius: 10px 0px 10px 10px;
+}
+#notifContainer{
+	min-width: 300px;
+}
+
+.collapsing#isiNotif{
+	position: fixed !important;
+	right: 107px !important;
+}
+
+#notifbtn[aria-expanded="true"] .right-icon.notif-icon{
+	background-image: url('/assets/icons/notif-open-icon.svg');
+	height: 52px;
+	width: 42px;
+	background-size: 40px 52px;
+}
+
+.card-notif{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-size: 0.75rem;
+	line-height: 22px;
+	color: black;
+	border: 0px !important;
+}
+
+.card-notif.read{
+	background-color: rgba(242, 242, 242, 0.5);
+	font-weight: 400;
+}
+.card-notif.unread{
+	background-color: rgba(242, 242, 242, 1);
+	font-weight: 500;
+}
+#markread{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.8rem;
+}
+#markread:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#profilec{
+	z-index: 100;
+	position: fixed;
+	right: 26px;
+	margin-top: -5px;
+	background-color: #BDDEB1 !important;
+	border-radius: 10px 0px 10px 10px;
+}
+
+#profilec .card{
+	padding: 10px 15px 10px 15px;
+	font-size: 0.75rem;
+}
+
+#profilebtn[aria-expanded="true"] .right-icon.profile-icon{
+	background-image: url('/assets/icons/profile-open-icon.svg');
+	height: 52px;
+	width: 42px;
+	background-size: 40px 52px;
+}
+
+.collapsing#profilec{
+	position: fixed !important;
+	right: 26px !important;
+}
+
+#profilec a:hover{
+	color: #8BBF99;
+}
+
+#card-atas{
+	background-color: #8BBF99;
+	border-radius: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 0px transparent;
+}
+
+#welcome h1,
+#welcome h3{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	color: white;
+}
+
+#welcome h1{
+	font-size: 2rem;
+}
+
+#welcome h3{
+	font-size: 1.5rem;
+	opacity: 50%;
+}
+
+#card-jam{
+	background-color: #DFE8D5;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+#card-jam h1{
+	font-size: 2.7rem;
+}
+#card-jam #hari,#card-jam #tgl{
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	background: #F5F6FA !important;
+}
+
+#card-peserta{
+	background-color: #E0EBF8;
+	border-radius: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 0px transparent;
+}
+
+.download-btn{
+	background: #8BBF99;
+	border-radius: 20px !important;
+}
+
+.btn-text{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.9rem;
+	color: #FFFFFF;
+}
+
+.judulcard{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.45rem;
+	color: #000000;
+}
+.judulhalaman{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.5rem;
+	color: #000000;
+}
+#capt-peserta{
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 26px;
+
+	color: #000000;
+}
+
+.angka{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	/* or 16% */
+	text-align: right;
+	color: #000000;
+}
+.angka-kecil{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 3rem;
+	/* or 16% */
+	text-align: left;
+	color: #000000;
+}
+
+
+.orang{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+
+	text-align: right;
+
+	color: #000000;
+}
+.orang-kecil{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1rem;
+	/* or 28% */
+
+	text-align: left;
+
+	color: #000000;
+}
+
+.card-img-top{
+	margin-left: -40px !important;
+	margin-bottom: -10px !important;
+}
+
+.card-img-top-kecil{
+	width: 100%;
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
+	margin-bottom: -90px !important;
+}
+
+.card-img-top-kecil.konfirmasi{
+	margin-bottom: -130px !important;
+}
+
+#card-graphic{
+	background: #FFFFFF;
+	border-radius: 24px;
+	border: 0px transparent;
+}
+
+#graphic-title{
+	font-size: 2rem;
+}
+
+.dot{
+	height: 25px;
+	  width: 25px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+}
+
+.captgraph-card{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.75rem;
+	text-align: center;
+	letter-spacing: 1px;
+
+}
+
+.card-body{
+	border: 0px transparent;
+}
+
+#card-pendaftar{
+	background: #F1DAE0;
+	border-radius: 24px;
+	border: 0px transparent;
+	padding-left: 1rem;
+}
+
+#card-konfirmasi{
+	background: #F1E0DA;
+	border-radius: 24px;
+	border: 0px transparent;
+	padding-left: 1rem;
+}
+
+#card-pembayaran{
+	background: #F1DADA;
+	border-radius: 24px;
+	border: 0px transparent;
+	padding-left: 1rem;
+}
+
+#download-dash-btn-mobile{
+	margin-left: 60% !important;
+}
+
+.viewall{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1rem;
+	color: #000000;
+	cursor: pointer;
+}
+
+#card-konfirmasi-besar{
+	background: white;
+	border-radius: 24px;
+	border: 0px transparent;
+	padding-left: 1rem;
+}
+
+#card-pendaftar-besar{
+	background: white;
+	border-radius: 24px;
+	border: 0px transparent;
+	padding-left: 1rem;
+}
+
+.viewall:hover{
+	text-decoration: underline;
+}
+
+.foto{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: inline-block;
+	object-fit: cover;
+	object-position: center;
+
+}
+
+.badge{
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px !important;
+	font-size: 0.7rem !important;
+	font-weight: 500 !important;
+}
+
+.row{
+	margin-left: 0px !important;
+}
+
+.col{
+	padding-left: 0px !important;
+}

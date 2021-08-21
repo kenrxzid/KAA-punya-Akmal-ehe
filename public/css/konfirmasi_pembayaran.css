@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat";
+    background-color: #dddddd;
+    line-height: 1.5;
+}
+.container{
+    background: url(/img/Invoice-rafiki.svg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: -20%;
+    background-position-y: -100%;
+    max-width: 1240px;
+    height: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.container-flex{
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.bukti{
+    flex: 1;
+    padding: 15px;
+    background-color: rgb(204, 204, 204, 0.6);
+    border-radius: 15px;
+    border-inline-end: black solid 3px;
+}
+.status{
+    flex: 1;
+    padding: 15px;
+    background-color: rgb(204, 204, 204, 0.6);
+    border-radius: 15px;
+    border-inline-start: black solid 3px;
+}
+.header{
+    background: url(/img/1597722989485_logo_2-1-removebg-preview.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 20px;
+    /* background-color: rgb(138, 138, 255);/ */
+    flex: 1;
+    padding: 20px;
+}
+.conten{
+    /* background: url(/flaticon/user.svg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+    background-position-x: 785px; */
+    /* background-color: rgb(187, 255, 118); */
+    flex: 3;
+}
+.bungkus{
+    background-color: rgb(238, 238, 238, 0.7);
+    height: 350px;
+    margin: 215px 40px 20px 40px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+}
+/* .telpon{
+    background: url(/public/flaticon/phone.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    text-align: right;
+    width: 170px;
+    padding: 5px;
+    margin-top: 90px;
+    margin-left: 650px;
+} */
+h1{
+    margin: 70px 40px 50px 40px;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    width: auto;
+    margin: auto auto auto auto;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #92E3A9;
+}
+label{
+    font-size: 20px;
+}
+p{
+    font-size: 10px;
+    margin: 5px;
+}
+input.atas_nama_rekening, input.bank_asal{
+    font-family: "Montserrat";
+    display: inline-block;
+    justify-content: center;
+    margin: 20px 17px 20px 17px;
+    text-align: center;
+    width: 42%;
+    padding: 10px;
+    border-radius: 8px;
+}
+input.nomor_rekening, input.total_pembayaran{
+    font-family: "Montserrat";
+    display: inline-block;
+    justify-content: center;
+    margin: 20px 17px 20px 17px;
+    text-align: center;
+    width: 42%;
+    padding: 10px;
+    border-radius: 8px;
+}
+input.bukti_pembayaran{
+    display: inline-block;
+    margin-left: 20px;
+    justify-content: center;
+    text-align: center;
+}
+label{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn{
+    font-family: "Montserrat";
+    display: block;
+    margin: 5px auto 20px auto;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    width: 20%;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(0, 109, 255, 0.8);
+    transition: 0.50s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(0, 96, 221);
+    color: white;
+}
+.sp{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: black solid 3px;
+    justify-content: center;
+    text-align: center;
+}
+.menu1{
+    background: url(/flaticon/home-green.svg);
+    margin-top: 200px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    /* margin: 40px auto; */
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu1:hover{
+    background: url(/flaticon/home.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu2{
+    background: url(/flaticon/settings-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+    
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu2:hover{
+    background: url(/flaticon/settings.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu3{
+    background: url(/flaticon/check-mark.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+    
+    
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu4{
+    background: url(/flaticon/consent-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu4:hover{
+    background: url(/flaticon/consent.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu5{
+    background: url(/flaticon/print-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu5:hover{
+    background: url(/flaticon/print.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+
+/* =================================responsive================================= */
+@media screen and (max-width: 700px) {
+    body, html{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        background-color: white;
+        background-image: none;
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        display: table-row;
+    }
+    .menu1{
+        margin-bottom: 40px;
+        margin-left: 60px;
+    }
+    .header {
+        display: inline-block;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 500px;
+        /* width: 100%; */
+        height: auto;
+        position: relative;
+    }
+    .bungkus{
+        margin-top: 100px;
+        height: auto;
+    }
+    input.bank_asal, input.atas_nama_rekening, input.nomor_rekening, input.total_pembayaran{
+        display: block;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 80%;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    input.bukti_pembayaran{
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label{
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    form{
+        height: auto;
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+    }
+    h1{
+        margin: 50px 40px 50px 40px;
+        text-align: center;
+        font-size: 14px;
+    }
+  }
+
+   /* ===================================================================icon=========================================================== */
+ /* Dropdown Button */
+.dropbtn {
+    width: 50px;
+    height: 50px;
+    background: url(/flaticon/user.svg) no-repeat;
+    background-size: 40px;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    width: 50px;
+    height: 50px;
+    background: url(/flaticon/user-green.svg) no-repeat;
+    background-size: 40px;
+    background-position: center;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    float: right;
+    position: relative;
+    display: block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      background-color: #92E3A9;
+      color: white;
+    }
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

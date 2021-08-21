@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat";
+    background-color: #dddddd;
+    line-height: 1.5;
+}
+.container{
+    background: url(/img/Accept\ terms-amico.svg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: 30%;
+    background-position-y: -70%;
+    max-width: 1240px;
+    height: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background: url(/img/1597722989485_logo_2-1-removebg-preview.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 20px;
+    /* background-color: rgb(138, 138, 255);/ */
+    flex: 1;
+    padding: 20px;
+}
+.conten{
+    /* background: url(/flaticon/user.svg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+    background-position-x: 785px; */
+    /* background-color: rgb(187, 255, 118); */
+    flex: 3;
+}
+.bungkus{
+    background-color: rgb(238, 238, 238, 0.7);
+    height: auto;
+    margin: 215px 40px 20px 40px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+}
+/* .telpon{
+    background: url(/public/flaticon/phone.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    text-align: right;
+    width: 170px;
+    padding: 5px;
+    margin-top: 90px;
+    margin-left: 650px;
+} */
+h1{
+    width: 90%;
+    
+    margin-left: 35px;
+    font-size: 48px;
+    
+}
+h2{
+    text-align: center;
+    width: auto;
+    margin: auto auto auto auto;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #92E3A9;
+}
+p{
+    width: 90%;
+    padding: 20px auto;
+    margin: 30px auto;
+}
+/* a{
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+    
+} */
+.menu1{
+    background: url(/flaticon/home-green.svg);
+    margin-top: 200px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    /* margin: 40px auto; */
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu1:hover{
+    background: url(/flaticon/home.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu2{
+    background: url(/flaticon/settings.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+    
+    
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu3{
+    background: url(/flaticon/check-mark-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu3:hover{
+    background: url(/flaticon/check-mark.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu4{
+    background: url(/flaticon/consent-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu4:hover{
+    background: url(/flaticon/consent.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+.menu5{
+    background: url(/flaticon/print-green.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: white;
+
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    color: #92E3A9;
+    border-radius: 20px;
+    border: solid #92E3A9 3px;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.menu5:hover{
+    background: url(/flaticon/print.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-color: #92E3A9;
+    color: white;
+}
+
+/* =================================responsive================================= */
+@media screen and (max-width: 700px) {
+    .container{
+        background-color: white;
+        background-image: none;
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        display: table-row;
+    }
+    .menu1{
+        margin-bottom: 40px;
+        margin-left: 50px;
+    }
+    .header {
+        display: inline-block;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .bungkus{
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+    }
+  }
+
+   /* ===================================================================icon=========================================================== */
+ /* Dropdown Button */
+.dropbtn {
+    width: 50px;
+    height: 50px;
+    background: url(/flaticon/user.svg) no-repeat;
+    background-size: 40px;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    width: 50px;
+    height: 50px;
+    background: url(/flaticon/user-green.svg) no-repeat;
+    background-size: 40px;
+    background-position: center;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    float: right;
+    position: relative;
+    display: block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      background-color: #92E3A9;
+      color: white;
+    }
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

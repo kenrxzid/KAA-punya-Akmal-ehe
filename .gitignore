@@ -1,0 +1,15 @@
+/node_modules
+/public/hot
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+kaadaftar.zip
+.env
+app.zip
+resources.zip
+public/public.zip
+public/storage/bukti_pembayaran/bukti_pembayaran-P0001.jpeg
+resources/views.zip

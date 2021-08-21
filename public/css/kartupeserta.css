@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body,html{
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #dddddd;
+    font-family: "Montserrat";
+}
+.container2{
+    font-family: "Montserrat";
+    background: url(/img/Calculator-bro.svg);
+    background-repeat: no-repeat;
+    background-position-x: -130px;
+    background-position-y: 300px;
+    background-color: white;
+    display: block;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    padding: 15px;
+}
+.logo{
+    display: block;
+    position: relative;
+    height: 30%;
+    width: 100%;
+    background-image: url(/img/1597722989485_logo_2-1-removebg-preview.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10px;
+}
+.judul{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px #8BBF99;
+    margin-bottom: 30px;
+}
+.background{
+    background: url(/img/Documents-amico.svg);
+    background-repeat: no-repeat;
+    background-position-x: 230px;
+    background-position-y: -40px;
+}
+.content{
+    padding: 15px;
+    background-color: rgb(245, 245, 245, 0.6);
+    border-radius: 5px;
+    text-align-last: center;
+}
+.content h4{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.content p{
+    text-decoration: underline;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 30%;
+    top: 90%;
+    z-index: -1;
+}

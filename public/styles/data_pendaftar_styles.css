@@ -1,0 +1,180 @@
+
+#nav-data-pendaftar .nav-item.nav-link{
+	color: #8BBF99 !important;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500 !important;
+}
+#nav-data-pendaftar .nav-item{
+	border-radius: 20px 20px 0px 0px !important;
+	padding: 10px 20px !important;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500 !important;
+}
+#nav-data-pendaftar .nav-item.nav-link:hover,
+#nav-data-pendaftar .nav-item.nav-link:focus{
+	color: #8BBF99 !important;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500 !important;
+}
+div .tab-content{
+	background-color: white;
+	width: 100%;
+	padding: 20px;
+	margin: 0px;
+	border-radius: 20px;
+}
+
+#table-home-header{
+	background: #8BBF99;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 20px;
+}
+
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.nav-tabs, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active,.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:hover{
+	border:0px transparent !important;
+}
+
+input{
+	border: 0px;
+	background-color: #F2F2F2;
+	border-radius: 5px;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.drop[aria-expanded="true"]{
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-size: 30px 30px;
+	background-image: url('/assets/icons/dropdown-toggle-up.svg');
+	background-repeat: no-repeat;
+}
+
+.drop[aria-expanded="false"]{
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-size: 30px 30px;
+	background-image: url('/assets/icons/dropdown-toggle.svg');
+	background-repeat: no-repeat;
+}
+
+.card-drop{
+	background: #8BBF99 !important;
+	border-radius: 20px !important;
+	color: white !important;
+	border-color: transparent !important;
+}
+
+.dropdata{
+	font-family: 'Roboto', sans-serif !important;
+	font-style: normal !important;
+	font-weight: 400 !important;
+	font-size: 1rem !important;
+	margin-bottom: 0.5rem;
+}
+
+.drop-nopendaftar{
+	font-family: 'Montserrat', sans-serif !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 1.75rem !important;
+	margin-bottom: 0.8rem;
+}
+
+.icon-nama{
+	background-size: 30px 30px;
+	background-image: url('/assets/icons/nama-icon.svg');
+	background-repeat: no-repeat;
+	margin-right: .75rem;
+}
+.icon-email{
+	background-size: 30px 30px;
+	background-image: url('/assets/icons/email-icon.svg');
+	background-repeat: no-repeat;
+	margin-right: .75rem;
+}
+.icon-telp{
+	background-size: 30px 30px;
+	background-image: url('/assets/icons/telp-icon.svg');
+	background-repeat: no-repeat;
+	margin-right: .75rem;
+}
+.icon-line{
+	background-size: 30px 30px;
+	background-image: url('/assets/icons/line-icon.svg');
+	background-repeat: no-repeat;
+	margin-right: .75rem;
+}
+.icon-kota{
+	background-size: 30px 30px;
+	background-image: url('/assets/icons/kota-icon.svg');
+	background-repeat: no-repeat;
+	margin-right: .75rem;
+}
+.icon-univ{
+	background-size: 30px 30px;
+	background-image: url('/assets/icons/univ-icon.svg');
+	background-repeat: no-repeat;
+	margin-right: .75rem;
+}
+.icon-view{
+	background-size: cover;
+	background-image: url('/assets/icons/view-icon.svg');
+	background-repeat: no-repeat;
+	margin-right: .75rem;
+	width: 20px !important;
+	height: 20px !important;
+}
+.icon-download{
+	background-size: cover;
+	background-image: url('/assets/icons/download-icon.svg');
+	background-repeat: no-repeat;
+	margin-right: .75rem;
+	width: 20px !important;
+	height: 20px !important;
+}
+.card-drop.card-berkas{
+	color: black !important;
+	background: #DFEFD9 !important;
+}
+
+.card-berkas .dropdown-divider{
+	border : 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary{
+	background-color: #8B9ABF !important;
+}
+
+.btn-secondary{
+	background-color: #8BBFBC !important;
+}
+
+.btn{
+	border-color: transparent !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 0.75rem !important;
+	font-weight: 500 !important;
+}
+
+.pertanyaan-text{
+	font-family: 'Roboto', sans-serif;
+    max-width: 80%;
+    font-size: 1.2em;
+}
+
+.btn-lg{
+	font-size: 1rem !important;
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
+}

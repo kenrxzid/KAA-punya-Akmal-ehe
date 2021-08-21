@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: "Montserrat";
+}
+.logo{
+    width: 50%;
+    height: 400px;
+    margin-top: 50px;
+    background: url(/img/1597722989485_logo_2-1-removebg-preview.png) no-repeat;
+    background-size: 300px;
+    background-position: center;
+}
+.title{
+    width: 50%;
+    margin-top: 70px;
+    background: url(/img/KAA2020.svg) no-repeat;
+    background-size: 600px;
+    background-position: center;
+}
+.title-konten{
+    margin-top: 180px;
+}
+.apa_yg_baru{
+    display: block;
+    background-color: #8BBF99;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.flex1{
+    background: url(/flaticon/rules.svg) no-repeat;
+    background-size: 270px;
+    background-position-x: 60%;
+    background-position-y: 60%;
+}
+.flex2{
+    background: url(/flaticon/process.svg) no-repeat;
+    background-size: 270px;
+    background-position-x: 40%;
+    background-position-y: 90%;
+}
+.persyaratan{
+    display: block;
+    width: 60%;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.juara{
+    background: url(/flaticon/award.svg) no-repeat;
+    background-size: 100px;
+    background-position-x: 95%;
+    background-position-y: 80%;
+    display: block;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    margin-top: 400px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mekanisme{
+    width: 65%;
+    margin-top: 150px;
+    padding: 20px;
+}
+.biaya{
+    background: url(/flaticon/money.svg);
+    background-repeat: repeat-x;
+    background-size: 100px;
+    background-position-x: 95%;
+    background-position-y: 10%;
+    width: 40%;
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+.daftar{
+    font-family: "Montserrat";
+    display: block;
+    margin: 40px auto 20px auto;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    width: 300px;
+    color: #8BBF99;
+    border-radius: 20px;
+    border: #8BBF99 solid 3px;
+    background-color: white;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.daftar:hover{
+      background: #8BBF99;
+      color: white;
+}
+.download{
+    font-family: "Montserrat";
+    display: block;
+    margin: 50px auto 20px auto;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    width: 400px;
+    color: #8BBF99;
+    border-radius: 20px;
+    border: #8BBF99 solid 3px;
+    background-color: white;
+    transition: 0.50s;
+    cursor: pointer;
+}
+.download:hover{
+      background: #8BBF99;
+      color: white;
+}
+#bh{
+    width: 100%;
+    background-color: #8BBF99;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#bh2{
+    width: 100%;
+    background-color: yellow;
+    color: red;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#bh:hover{
+      background: #92E3A9;
+      color: white;
+}
+#bh2:hover{
+      background: red;
+      color: yellow;
+}
+/* ================================================BUTTOM UP==================================== */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #92E3A9;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #8BBF99;
+  }
+
+/* =======================================GALERY======================================== */
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container2 {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+/* ==============================================TIMELINE====================================== */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #dddd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+  }
+  
+  /* Container around content */
+  .container3 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container3::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #dddd;
+    border: 4px solid #92E3A9;
+    top: 15px;
+    border-radius: 50%;
+    /* z-index: 1; */
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: #dddd;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+    left: 31px;
+    }
+    
+    /* Full-width containers */
+    .container3 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .container3::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+  }
+
+  /* ========================================================contact================================ */
+  .column2 {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column2 {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container4 {
+    padding: 0 16px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container4::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title2 {
+    color: grey;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  /* =================================responsive================================= */
+@media screen and (max-width: 700px) {
+body{
+  width: 500px;
+}
+.logo{
+  width: 50%;
+  height: 300px;
+  background-size: 200px;
+}
+.title{
+  width: 60%;
+  background-size: 250px;
+}
+.juara{
+  display: block;
+  width: 100%;
+  height: auto;
+  background-image: none;
+  text-align: start;
+  margin-top: 45px;
+  margin-bottom: auto;
+  margin-left: 45px;
+  margin-right: auto;
+  font-size: 14px;
+  float: left;
+}
+}

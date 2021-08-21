@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+body, html{
+    font-family: "Montserrat Alternates";
+    margin: 0;
+    padding: 0;
+}
+#bh{
+    width: 100%;
+    background-color: #4545d6;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#bh:hover{
+      background: #3131b5;
+      color: white;
+}
+.flex5{
+    display: flex;
+}
+.judul{
+    width: 100%;
+    height: 200px;
+    background: url(/img/semnas\ 2019.png) no-repeat;
+    background-size: 500px;
+    background-position: center;
+}
+.keterangan{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 19px;
+}   
+.persyaratan{
+    background: url(/flaticon/document.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position-x: 100%;
+    background-position-y: 90%;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.persyaratan p{
+  font-size: 18px;
+  margin-top: 20px;
+  background-color:  rgb(255, 255, 255, 0.6);
+  border-radius: 10px;
+}
+.flex{
+    display: flex;
+    margin-top: 30px;
+}
+.rectangle {
+    height: 50px;
+    width: 50%;
+    background-color: #8BBF99;
+  }
+  .triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #8BBF99;
+	border-bottom: 25px solid transparent;
+}
+/* ===============================================================timeline================================================== */
+.timeline {
+    background: url(/flaticon/timeline.svg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 20%;
+    background-position-y: 90%;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #dddd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+  }
+  
+  /* Container around content */
+  .container3 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container3::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #dddd;
+    border: 4px solid #ffa600;
+    top: 15px;
+    border-radius: 50%;
+    /* z-index: 1; */
+  }
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -13px;
+  }
+  .left::after {
+    left: 587px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: #dddd;
+    position: relative;
+    border-radius: 6px;
+  }
+  /* ===============================================================timeline================================================== */
+.flex2{
+    display: flex;
+    margin-top: 80px;
+}
+.rectangle2 {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50%;
+    background-color: #8BBF99;
+}
+.triangle-left {
+    position: absolute;
+    right: 50%;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #8BBF99;
+    border-bottom: 25px solid transparent;
+}
+.flex3{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.box{
+    border: black solid 3px;
+    margin: 20px;
+    padding: 20px;
+    width: 60%;
+    height: auto;
+}
+.fasilitas{
+    background: url(/flaticon/certificate.svg);
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position-x: 90%;
+    background-position-y: 90%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    flex: 1;
+}
+.mekanisme{
+    background: url(/flaticon/name.svg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 90%;
+    background-position-y: 60%;
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+}
+.mekanisme p{
+  background-color:  rgb(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+.daftar{
+  font-family: "Montserrat";
+  display: block;
+  margin: 40px auto 20px auto;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  width: 300px;
+  color: #ffa600;
+  border-radius: 20px;
+  border: #ffa600 solid 3px;
+  background-color: white;
+  transition: 0.50s;
+  cursor: pointer;
+}
+.daftar:hover{
+    background: #ffa600;
+    color: white;
+}
+ /* ===============================================================contact================================================== */
+.flex4{
+    display: flex;
+}
+ .column2 {
+    flex: 1;
+    /* float: left; */
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.column3 {
+    flex: 1;
+    /* float: left; */
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column2 {
+      width: 100%;
+      display: block;
+    }
+    .column3 {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container4 {
+    padding: 0 16px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container4::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title2 {
+    color: grey;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  /* =================================responsive================================= */
+@media screen and (max-width: 700px) {
+body{
+  width: auto;
+}
+.judul{
+  background-size: 400px;
+}
+.left::after {
+  left: 230px;
+}
+h3{
+  font-size: 19px;
+}
+.persyaratan p{
+  font-size: 16px;
+}
+.fasilitas{
+  margin: 0;
+  text-align: center;
+}
+.fasilitas h3{
+  font-size: 16px;
+  text-align: center;
+}
+p{
+  font-size: 16px;
+}
+.box{display: block;
+  text-align: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+}
